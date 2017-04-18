@@ -8,9 +8,12 @@ Files are referenced by pointers like so:
 
 `file = fopen("file.txt","w+");`
 
-`fprintf()` prints to the file:
+`fprintf()` or `fputs()` prints to the file:
 
-`fprintf(file,"Hello world!");`
+```c
+fprintf(file,"Hello world!");
+fputs(file,"Hello world!");
+```
 
 `fclose()` closes the file:
 

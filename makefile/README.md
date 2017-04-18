@@ -2,7 +2,7 @@
 
 GNU make is an easy way to build applications (especially large ones).
 
-To use a makefile, the following syntax is used (adapted from mrbook.org/blog/tutorials/make):
+To use a makefile, the following syntax is used:
 
 ```make
 target: dependencies
