@@ -1,5 +1,7 @@
 # bclindner's C examples
 
+by Brian C. Lindner, 2017
+
 ## Foreword / Introduction
 
 As a Web developer who writes mostly JavaScript, conventional programming languages like C, C++, Java and the like are a little over my head. Static typing, header files, compilers, makefiles, string operations (and their distinct lack of operators), and 500 different ways to print a line to the console have made the language feel like the untouchable programming language of *computer wizards*. To help myself along, I made this repo: a set of modules explaining C concepts.
