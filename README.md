@@ -4,7 +4,7 @@ As a Web developer who writes mostly JavaScript, conventional programming langua
 
 To help myself along, I made this repo: a set of modules explaining C concepts. Each module is laid out as follows:
 
-* `module/`: The module of the folder.
+* `module/`: The folder of the module.
   * `module/module.c`: The source code of the module.
   * `module/Makefile`: The makefile for the module, if available - if this is in the module, you can just type `make` to compile.
   * `module/README.md`: The documentation for the module. Each module's README attempts to explain the concept as best as possible.
