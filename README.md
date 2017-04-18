@@ -9,7 +9,7 @@ To help myself along, I made this repo: a set of modules explaining C concepts. 
   * `module/Makefile`: The makefile for the module, if available - if this is in the module, you can just type `make` to compile.
   * `module/README.md`: The documentation for the module. Each module's README attempts to explain the concept as best as possible.
 
-To compile and run any program, use your default C compiler (usually denoted by `cc`, and usually `gcc`), using the -o option to control the output file::
+To compile and run any program, use your default C compiler (usually denoted by `cc`, and usually `gcc`), using the -o option to control the output file:
 
 ```sh
 cc -o code code.c
