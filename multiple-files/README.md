@@ -19,5 +19,5 @@ Then, to include them, use quotes instead of angle brackets when using `#include
 Compiling multiple C files into a single program requires you to have it compiled with or before the program with the `main()` function. This can be achieved by including them in the same compiler command:
 
 ```sh
-cc -o out extrafile.c mainfile.c
+$ cc -o out extrafile.c mainfile.c
 ```

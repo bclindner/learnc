@@ -32,11 +32,11 @@ Variants can be found using `man 3 puts` and `man 3 printf`. The most notable va
 To compile a single-file C program, run:
 
 ```sh
-cc helloworld.c
+$ cc helloworld.c
 ```
 
 This writes a file called `a.out` to the directory in which the compiler was run. We can use the -o option to make the filename different:
 
 ```sh
-cc -o helloworld helloworld.c
+$ cc -o helloworld helloworld.c
 ```
