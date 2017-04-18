@@ -13,3 +13,11 @@ Then, to include them, use quotes instead of angle brackets when using `#include
 ```
 
 (A note: C allows for the inclusion of other files by simply including them as they are, but this is bad practice - always use header files!)
+
+## Compiling
+
+Compiling multiple C files into a single program requires you to have it compiled with or before the program with the `main()` function. This can be achieved by including them in the same compiler command:
+
+```sh
+cc -o out extrafile.c mainfile.c
+```
