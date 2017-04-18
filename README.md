@@ -32,4 +32,4 @@ $ cc -o code code.c
 
 ## License
 
-The code and text in this repository are protected under the GPLv3 license, in "LICENSE.md" of this repository or at [gnu.org](https://www.gnu.org/licenses/gpl-3.0.en.html).
+The contents of this repository are protected under the GPLv3 license, in "LICENSE.md" of this repository or at [gnu.org](https://www.gnu.org/licenses/gpl-3.0.en.html).
