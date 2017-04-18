@@ -29,7 +29,7 @@ Variants can be found using `man 3 puts` and `man 3 printf`. The most notable va
 
 ## Compiling
 
-To compile a single C program, run:
+To compile a single-file C program, run:
 
 ```sh
 cc helloworld.c
