@@ -1,2 +1,2 @@
-helloworld: helloworld.c
-	gcc -o helloworld helloworld.c -I.
+helloworld: makefile.c
+	gcc -o makefile makefile.c

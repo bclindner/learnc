@@ -6,7 +6,7 @@ To use a makefile, the following syntax is used:
 
 ```make
 target: dependencies
-	command to build
+	command(s) to build
 ...
 ```
 

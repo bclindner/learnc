@@ -8,7 +8,7 @@ The program begins with definitions and *includes* - libraries to be used in the
 #include <stdio.h>
 ```
 
-The program then needs a *main function* - usually set to `int` type, to allow error codes to be sent - that contains the code that the computer runs when the program is launched. It looks like this, usually:
+The program then needs a *main function* - usually set to `int` type (meaning it returns an integer; a status code, in the case of most POSIX programs), to allow error codes to be sent - that contains the code that the computer runs when the program is launched. It looks like this, usually:
 
 ```c
 int main(int argc, char **argv){
