@@ -24,7 +24,7 @@ Each one of these modules is set up in its own subfolder with the following form
   * `module/README.md`: The documentation for the module. Each module's README attempts to explain the concept as best as possible.
   * `module/Makefile` (optional): The makefile for the module, if available - if this is in the module, you can just type `make` to compile.
 
-To compile and run any program to see it in action, you can use your default C compiler (usually denoted by `cc` - usually a symlink to `gcc`), using the -o option to set the name of file it creates:
+To compile and run any program to see it in action, you can use your default C compiler (usually denoted by `cc`, and  usually a symlink to `gcc`), using the -o option to set the name of file it creates:
 
 ```sh
 $ cc -o code code.c
